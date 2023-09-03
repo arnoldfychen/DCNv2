@@ -1,4 +1,6 @@
-## Deformable Convolutional Networks V2 with Pytorch 1.X
+## Deformable Convolutional Networks V2 with Pytorch 1.1 or higher version
+Made changes to replace the deprecated THC API with ATen API, to support Pytorch 1.1 or higher version.   
+Did experiments, it works well at least with Pytorch 1.11 and 1.12. 
 
 ### Build
 ```bash
